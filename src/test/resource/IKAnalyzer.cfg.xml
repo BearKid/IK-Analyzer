@@ -2,6 +2,8 @@
 <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">  
 <properties>  
 	<comment>IK Analyzer 扩展配置</comment>
+	<!--配置是否加载自带的主词典，默认为加载（true） -->
+	<entry key="load_main_dict">false</entry>
 	<!--用户可以在这里配置自己的扩展字典 -->
 	<entry key="ext_dict">ext.dic;</entry> 
 	

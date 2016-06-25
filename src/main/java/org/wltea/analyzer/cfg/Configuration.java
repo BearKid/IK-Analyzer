@@ -58,6 +58,11 @@ public interface Configuration {
 	public String getMainDictionary();
 
 	/**
+	 * 是否加载自带的主词典
+     */
+	public boolean loadMainDictionary();
+
+	/**
 	 * 获取量词词典路径
 	 * @return String 量词词典路径
 	 */
